@@ -46,6 +46,7 @@ form p.styledP {
  margin-bottom: 0px;
  margin-bottom: 30px;
 }
+
 form .input-field {
   margin-right: 20px !important;
   margin-bottom: 20px !important;
@@ -60,6 +61,14 @@ form input.styledInput {
   padding: 10px !important;
   margin-bottom: 10px !important;
 }
+input[type="text"]:not(.browser-default):focus:not([readonly]), 
+input[type="email"]:not(.browser-default):focus:not([readonly]), 
+input[type="password"]:not(.browser-default):focus:not([readonly]), 
+textarea.materialize-textarea {
+  border-color: #283593;
+  box-shadow: none;
+}
+
 form label {
   left: 15px !important;
   bottom: 5px !important;
