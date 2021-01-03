@@ -1,0 +1,76 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eeeeee;
+}
+
+
+.brand-logo{
+  font-weight:500;
+}
+
+/* FORM */
+form {
+  padding: 20px;
+  margin-top: 60px;
+  width: 330px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px #d5d2d0, -5px -5px 15px #ffffff;
+}
+form h5 {
+  margin-top: 35px !important;
+  margin-bottom: 35px !important;
+  font-weight:700;
+}
+form button.btn {
+  width: 105%;
+  color: #fff;
+  border-radius: 24px;
+  border: transparent;
+  box-shadow: 5px 5px 15px #d5d2d0, -5px -5px 15px #ffffff;
+  cursor: pointer;
+}
+
+form p.styledP {
+ font-size: 12px !important;
+ display: inline-block;
+ margin-bottom: 0px;
+ margin-bottom: 30px;
+}
+form .input-field {
+  margin-right: 20px !important;
+  margin-bottom: 20px !important;
+}
+form input.styledInput {
+  height:auto !important;
+  border-bottom: none !important;
+  border-radius: 24px !important;
+  background-color: #fff !important;
+  border: none;
+  box-shadow: inset 5px 5px 15px #d5d2d0, inset -5px -5px 15px #ffffff !important;
+  padding: 10px !important;
+  margin-bottom: 10px !important;
+}
+form label {
+  left: 15px !important;
+  bottom: 5px !important;
+}
+
+/* CARD */
+div.project-summary {
+border-radius: 25px !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
